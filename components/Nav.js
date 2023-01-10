@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import { motion } from 'framer-motion'
-import Projects from '../components/Projects'
+import Projects from '../pages/Projects'
 
 const Nav = () => {
   return (
@@ -16,10 +16,10 @@ const Nav = () => {
                     VB
                 </li>
                 </Link>
-            
-                
-                <Link href="/Projects"> k
-                </Link>
+
+                <Link href="/Projects"> 
+                  Projects
+                 </Link>
             
         </ul>
     </motion.div>
