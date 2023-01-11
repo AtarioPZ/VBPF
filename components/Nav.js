@@ -5,7 +5,7 @@ import Projects from '../pages/Projects'
 
 const Nav = () => {
   return (
-    <motion.div className='bg-gray-900 text-white'
+    <motion.div className='bg-gray-700 text-white'
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5, duration: 1.5 }}
@@ -13,7 +13,7 @@ const Nav = () => {
         <ul className='flex space-x-4 text-lg pt-3 font-thin pb-3 justify-center'>
                 <Link href={"./"} passHref>
                 <li className='cursor-pointer mx-2'>
-                    VB
+                    Home
                 </li>
                 </Link>
 
